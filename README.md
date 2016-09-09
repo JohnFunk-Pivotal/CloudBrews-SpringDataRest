@@ -15,10 +15,12 @@ unzip demo.zip
 ```
 
 **Add a few includes, and a annotated method to the Application definition in DemoApplication.java**
+using vim, emax or nano add the highlited code in DemoApplication.java to the code in your environment or you can avoid typing the code by using the following command to copy it into your environment.
 ```
 curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringDataRest/master/DemoApplication.java -o src/main/java/com/example/DemoApplication.java
 ```
 **Copy in Car.java and CarRepository.java**
+You code type this code pretty quickly, but for this event, we're just going to copy it into your environment.
 ```
 curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringDataRest/master/CarRepository.java -o src/main/java/com/example/CarRepository.java
 
