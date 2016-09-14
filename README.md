@@ -10,7 +10,7 @@ Start by cleaning up after the last person and making a directory in your Google
 ```
 cd ~
 rm -rf springdatarest
-md springdatarest
+mkdir springdatarest
 cd springdatarest
 ```
 
@@ -19,7 +19,7 @@ Spring Boot Initializr is a fast way to generate a skeleton application and all 
 
 ##Download the starter application template from start.spring.io
 ```
-curl start.spring.io/starter.zip -o demo.zip -d dependencies=web,jpa,data-rest,h2 -d javaVersion=1.7
+curl start.spring.io/starter.zip -o demo.zip -d dependencies=web,jpa,data-rest,h2 -d javaVersion=1.8
 unzip demo.zip
 ```
 ## Look around at the code
