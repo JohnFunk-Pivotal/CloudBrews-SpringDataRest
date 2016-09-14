@@ -75,3 +75,6 @@ Next click on the link under the ROUTE label as shown below:
 
 ## Congratulations
 Congratulations you just built a Spring Data REST application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
+
+## Feedback
+Please give us feedback on this exercise: [Feedback](http://pivotal.DSUW.sgizmo.com/s3/?station=2)
