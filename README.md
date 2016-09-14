@@ -41,16 +41,36 @@ curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringDataRes
 ```
 
 ##Build and run the app
+```
 mvn install
 java - jar target/demo….jar
-
-**Open localhost:8080 in the browser**
-
-Explore the links in the rest response
-do a search with:
-http://localhost:8080/cars/search/find?make=ford
-
-**optionally push it to pcf**
 ```
+
+## Open the app in the browser and explore some of the links in it  
+Open http://localhost:8080 in the browser
+  * Explore the links in the rest response
+  * do a search with: http://localhost:8080/cars/search/find?make=ford
+
+## Optional Step - Push the app to Pivotal Cloud Foundry
+```
+cf login -a api.run.pivotal.io -u demo2@johnfunk.com -o Channel -s Denver-CloudBrews
 cf push datarest -p target/demo-0.0.1-SNAPSHOT.jar --random-route
 ```
+
+If you are asked for a password please ask one of the helpers at the station to proide it.
+
+## Login to Cloud Foundry
+Open cloud foundry in a browser by visiting:  http://run.pivotal.io  
+   *username: demo2@johnfunk.com  
+   *password:  ask one of the helpers  
+
+##Navigate to the Application in Pivotal Cloud Foundry
+First click on the 'Denver-CloudBrews' space as shown below:
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringDataRest/blob/master/CloudFoundrySpace.png "Space view on PCF")  
+
+Next click on the link under the ROUTE lable as shown below:
+![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundryApps.png "Apps view on PCF") 
+
+## Congradulations
+Congratulations you just built a spring boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
+
