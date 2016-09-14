@@ -6,8 +6,10 @@ Spring Data REST is a very powerfull tool that exposes data sources such as data
 In this exercise we'll build a very simple Spring Data REST application and deploy it to Pivotal Cloud Foundry.   Rather than hand writing a bunch of code, we'll start by using the Spring Boot Initializr to generate a template project with all the dependancies we need.
 
 ## Setup
-Start by making a directory in your Google Compute Engine Console and changing into it
+Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it. 
 ```
+cd ~
+rm -rf springdatarest
 md springdatarest
 cd springdatarest
 ```
