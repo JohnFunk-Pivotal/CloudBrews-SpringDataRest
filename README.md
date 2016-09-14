@@ -20,6 +20,10 @@ Spring Boot Initializr is a fast way to generate a skelton applicaiton and all t
 curl start.spring.io/starter.zip -o demo.zip -d dependencies=web,jpa,data-rest,h2 -d javaVersion=1.7
 unzip demo.zip
 ```
+## Look around at the code
+The project code that Spring Boot Initializr just created for you.  It expanded out to the following directory structure.  Notice the starter template includes java code, static web templates, and even starter test harnesses for you.
+![Tree View of the Application](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringDataRest/blob/master/TreeViewOfApplication.png "Tree View of the Application")
+
 
 ##Modify DemoApplicaiton.java
 Add a few includes and a annotated method to the Application definition in DemoApplication.java so it matches the code in the file above using vim, emax or nano in the Google Compute Engine Console add the highlited code in DemoApplication.java to the code in your environment.  
